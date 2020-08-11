@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?mmf7n8');
+    src:  url('../fonts/icomoon.eot?mmf7n8#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?mmf7n8') format('truetype'),
+    url('../fonts/icomoon.woff?mmf7n8') format('woff'),
+    url('../fonts/icomoon.svg?mmf7n8#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+/*版心*/
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+/*导航栏*/
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.style_red {
+    color: #c81623;
+}
+.shortcut {
+    /*设置hight和line-high实现单行文本垂直居中*/
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+.shortcut ul li {
+    float: left;
+}
+.shortcut .fr ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 15px 0;
+}
+.arrow-icon::after {
+    content: '\ea50';
+    font-family: 'icomoon';
+    margin-left: 6px;
+}
+/*头部header*/
+.header {
+    position: relative;
+    height: 105px;
+    background-color: pink;
+}
+.logo {
+    position: absolute;
+    top: 25px;
+    width: 171px;
+    height: 61px;
+    background-color: skyblue;
+}
+.logo a {
+    display: block;
+    height: 171px;
+    width: 61px;
+    /*background: url();*/
+    font-size: 0;
+}
+.search {
+    position: absolute;
+    left: 346px;
+    top: 25px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid #b1191a;
+}
+.search input{
+    float: left;
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+}
+.search button{
+    float: left;
+    width: 80px;
+    height: 32px;
+    background-color: #b1191a;
+    font-size: 16px;
+    color: #fff;
+}
+.hotwords {
+    position: absolute;
+    top: 66px;
+    left: 346px;
+}
+.hotwords a {
+    margin: 0 10px;
+}
